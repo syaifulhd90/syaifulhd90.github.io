@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "Inter", sans-serif;
+	background: rgb(254,253,251);
+}
+a{
+	text-decoration: none;
+	color: rgba(119,128,138,1);
+}
+a:hover{
+	color: rgb(46,197,198);
+}
+p{
+	color: #2d3e50;
+}
+.column{
+	flex-direction: column;
+}
+.purple{
+	color: #2d3e50;
+}
+.bold{
+	box-shadow: 0px 0.5px 2px rgba(161,168,176, .5);
+}
+.container-header{
+	position: fixed;
+	height: 0;
+	width: 0;
+	display: flex;
+	background: rgb(255,254,252);
+	box-shadow: 0px 0.5px 2px rgba(161,168,176, .5);	
+	color: #2d3e50;
+	overflow: hidden;
+
+}
+.header-left-box{
+	width: 70%;
+}
+.header-right-box{
+	width: 30%;
+	display: flex;
+}
+.header-left-box .title{
+	width: 20%;
+	height: 50px;
+	display: flex;
+	color: black;
+}
+.header-left-box .title a{
+	margin: auto;
+}
+.menu{
+	/*border: 2px solid pink;*/
+	display: flex;
+	margin-left: 5%;
+	color: rgb(161,168,176);
+}
+.menu a{
+	margin: auto;
+}
+.hover:hover{
+	color: rgba(65,65,65,1);
+	transform: scale(1.2);
+}
+/*BODY*/
+.container-body{
+	/*border: 2px solid pink;*/
+	width: 100%;
+	display: flex;
+	flex-direction: column;	
+	margin-bottom: 35px;
+}
+.content-left-box{
+	/*border: 1px solid pink;*/
+	width: 95%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 7%;
+	/*position: fixed;*/
+}
+.content-right-box{
+	/*border: 1px solid pink;*/
+	padding-right: 2%;
+	padding-left: 2%;
+	width: 95%;
+}
+
+.content{
+	/*border: 1px solid pink;*/
+	margin-top: 5%;
+	overflow: hidden;
+	border-radius: 8px; 
+	padding-left: 4.5%;
+	padding-right: 4.5%;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	background: rgb(255,255,255);
+	box-shadow: 0px 0.5px 2px rgba(161,168,176, .5);
+}
+.content:target{
+	transform: scaleY(1,2);
+}
+.menu-title{
+	color: rgb(46,197,198);
+	font-size: 13px;
+	font-family: bold;
+	white-space: 1px;
+}
+.subtitle{
+	line-height: 4px;
+}
+.content h3{
+	font-size: 24px;
+}
+.content div{
+	display: flex;
+}
+.left img{
+	width: 100%;
+}
+.left{
+	width: 50%;
+}
+.right{
+	width: 100%;
+}
+.isi{
+	font-size: 14.5px;
+	line-height: 23px;
+	color: rgb(88,104,124);
+	justify-content: space-around;
+}
+.isi.portofolio{
+	line-height: 19px;
+}
+.bar2,.bar1{
+	flex-direction: column;
+	/*border: 1px solid pink*/
+}
+.order1{
+	order: 2;
+}
+.order2{
+	order: 1;
+}
+.title{
+	font-size: 20px;
+	color: black;
+}
+.download{
+	font-size: 16px;
+	color: rgb(46,197,198);
+	line-height: 0;
+}
+.name{
+	text-align: center;
+	/*border: 1px solid pink;*/
+
+}
+
+
+.profil-box{
+	/*border: 1px solid pink;*/
+	height: 165px;
+	display: flex;
+	margin-top: 11.5%;
+}
+.border{
+	border: 3.5px solid rgba(119,128,138,0.2);
+	height: 180px;
+	width: 180px;
+	margin: auto;
+	display: flex;
+	border-radius: 50%;
+}
+.profil{
+	/*border: 1px solid pink;*/
+	height: 176px;
+	width: 176px;
+	margin: auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.contact{
+	/*border: 1px solid pink;*/
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.contact span{
+	/*border: 1px solid pink;*/
+	color: #2d3e50;
+}
+.media{
+	width: 40%;
+}
+.skul{
+	font-size: 16px;
+	color: rgba(119,128,138,1);
+	text-align: center;
+	line-height: 0px;
+}
+.how{
+	padding-left: 30px;
+}
+.baris{
+	border: 1px solid rgba(161,168,176, .5);
+	width: 40%;
+	margin-left: 30px;
+}
+.yt{
+	margin-top: 10px;
+}
+.resHidden{
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+}
+.touch-box{
+	padding-bottom: 20px;
+}
+
+/*FOOTER*/
+
+.container-footer{
+	/*border: 1px solid black;*/
+	background: rgb(255,254,252);
+	height: 25px;
+	width: 99.9%;
+	text-align: center;
+	padding-top: 12.5px;
+	bottom: 0;
+	box-shadow: 0px 0.5px 2px rgba(161,168,176, .5);
+}
+
+
+.navbar{
+	position: fixed;
+	/*background: rgba(0,0,0,0.7);*/
+	top:0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+}
+.menu-icon{
+	margin: auto 0;
+	margin-left: 2%;
+	display: flex;
+	flex-direction: column;
+}
+.menu-icon .menu{
+	background: rgba(0,0,0,0.33);
+	padding: 10px 10px 0 10px;
+}
+.menu-icon a{
+	margin: auto;
+}
+.menu-icon a:hover{
+	transform: scale(1.2);
+}
+.menu.atas{
+	border-top-right-radius: 30%;
+	border-top-left-radius: 30%;
+}
+.menu.bawah{
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+	padding-bottom: 10px;
+}
